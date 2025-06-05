@@ -1,0 +1,13 @@
+prefix=d:/IT VEDANT/Pythone/HR DATA PROJECT/.conda/Library
+exec_prefix=d:/IT VEDANT/Pythone/HR DATA PROJECT/.conda/Library
+libdir=d:/IT VEDANT/Pythone/HR DATA PROJECT/.conda/Library/lib
+sharedlibdir=d:/IT VEDANT/Pythone/HR DATA PROJECT/.conda/Library/lib
+includedir=d:/IT VEDANT/Pythone/HR DATA PROJECT/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
